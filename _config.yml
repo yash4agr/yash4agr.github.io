@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Yash Agrawal"
 title_separator          : "-"
 name                     : &name "Yash Agrawal"
-description              : &description "Hey!"
+description              : &description "I am a student at IIT Madras with a keen interest in machine learning and deep learning, particularly in the fields of natural language processing and computer vision."
 url                      : https://yash4agr.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yash4agr/yash4agr.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Yash Agrawal"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "I am a student at IIT Madras with a keen interest in machine learning and deep learning, particularly in the fields of natural language processing and computer vision."
   location         : #"Earth"
   employer         : #"Red Brick University"
   uri              : # URL
@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : yash04a
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -205,7 +205,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -251,10 +251,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: true
